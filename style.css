@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  background: #eee;
+  height: auto;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+.slide-right {
+  width: 100%;
+  overflow: hidden;
+  // margin-left: 300px;
+  // max-width: 500px
+}
+
+.slide-right h1 {
+  animation: 2s slide-right 2s forwards;
+    transform:translateX(-100%);
+}
+.slide-right h2 {
+  animation: 2.5s slide-right 2.5s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+    -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+#landing {
+  background: #fff;
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#landing-text h2 {
+  color: #888;
+}
+
+#landing-image {
+  background: url("img/one.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 50vw;
+  margin: 0;
+  opacity: 90%;
+}
+
+.b {
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+  scroll-behavior: smooth;
+}
+
+.b:hover {
+  background: #ecebeb;
+  
+}
+
+#header {
+  padding: 1.5rem;
+  text-align: center;
+  // background: rgb(145, 136, 136);
+  // color: #fff;
+}
+
+#header h2 {
+  border-left: dotted 2px #fff;
+  border-right: dotted 2px #fff;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.caption {    
+  padding: 0.8rem;    
+  text-align: center;   
+  background: url("img/notes.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  // text-align: left;
+  // display: block;
+  
+  height: 60vh;
+  
+  
+  
+}
+.tention {
+  padding: 0.8rem;
+  text-align: center;
+  // background: url(C:\Users\DEV\Documents\DEV-F\Portfolio\src\assets\notes2.jpg);
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  // text-align: left;
+  // display: block;
+  
+  height: 60vh;
+  
+  
+  
+}
+.two {
+  padding: 0.8rem;
+  text-align: center;
+  background: url("img/calculator.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  // text-align: left;
+  // display: block;
+  
+  height: 60vh;
+  
+  
+  
+}
+.three {
+  padding: 0.8rem;
+  text-align: center;
+  background: url("img/notes2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  // text-align: left;
+  // display: block;
+  
+  height: 60vh;
+  
+  
+  
+}
+
+
+button {
+  padding: 0.5rem 2rem;
+  border: none;
+  display: inline-block;
+  // margin: 2rem 0 0;
+  // border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+  scroll-behavior: smooth;
+  background-color: rgba(0,0,0,0.5);
+
+  margin: 5px;
+  outline: none;
+}
+
+button:hover {
+  // background: #ecebeb;
+  color: #ccc;
+  background-color: rgba(0,0,0,0.8);
+  
+}
+// a{
+//   color: #333;
+//   text-decoration: none;
+// }
+// a:hover{
+//   color: #eee;
+// }
+footer {
+  text-align: center;
+  // padding: 2rem 1rem;
+  margin: auto;
+  color: #333;
+}
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.fa {
+  color: #333;
+}
+
+.fa:hover {
+   color: rgb(57, 31, 129);
+}
+.sm-link{
+  color: black;
+  margin-top: 2px;
+  margin-right: 5px;
+}
+/* Screen Sizes 500px and Up */
+@media (min-width: 500px) {
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+
+  #landing-text {
+    height: 100vh;
+  }
+
+  #landing-image {
+    height: 100vh;
+  }
+}
+
+/* Screen Sizes 700px and Up */
+@media (min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
+}
