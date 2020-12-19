@@ -7,7 +7,6 @@ body {
   margin: 0;
   background: #eee;
   height: auto;
-  scroll-behavior: smooth;
 }
 
 h1 {
@@ -244,7 +243,7 @@ footer h3 {
   margin-right: 5px;
 }
 /* Screen Sizes 500px and Up */
-@media (min-width: 500px) {
+@media  (min-width: 500px) {
   #landing {
     display: flex;
     height: 100%;
