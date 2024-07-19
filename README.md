@@ -4,7 +4,7 @@
 **I am Roy Okunbor** 
 A ✨ talented ✨ Software developer 
 
-- 🔭 I’m currently working at [Kinect](https://www.kinnect.us) .
+- 🔭 I’m currently working at [Kinnect](https://www.kinnect.us) .
 - 🌱 I’m currently learning how to swim.
 - 👯 I’m looking to collaborate on Angular and Ionic projects.
 - 💬 Ask me about Angular, Ionic, Typescript, Firebase, and MongoDb...
